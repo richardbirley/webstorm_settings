@@ -3,10 +3,10 @@
     <property name="created">2016-10-20T14:07:00</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.2.4.0.0</property>
-    <property name="modified">2016-10-20T14:18:58</property>
+    <property name="modified">2016-10-20T14:37:14</property>
     <property name="originalScheme">Material Theme - Darker</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.6" />
+  <option name="LINE_SPACING" value="1.2" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
     <option name="EDITOR_FONT_SIZE" value="14" />
@@ -704,7 +704,14 @@
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="c3e887" />
+        <option name="FOREGROUND" value="cbcfd7" />
+      </value>
+    </option>
+    <option name="HTML_CODE">
+      <value>
+        <option name="FOREGROUND" value="cbcfd7" />
+        <option name="BACKGROUND" value="212121" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="HTML_COMMENT">
@@ -719,9 +726,7 @@
       </value>
     </option>
     <option name="HTML_TAG">
-      <value>
-        <option name="FOREGROUND" value="6dc2b8" />
-      </value>
+      <value />
     </option>
     <option name="HTML_TAG_NAME">
       <value>
@@ -831,14 +836,24 @@
         <option name="FOREGROUND" value="1a1f29" />
       </value>
     </option>
+    <option name="JS.BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="41bcff" />
+      </value>
+    </option>
+    <option name="JS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="41bcff" />
+      </value>
+    </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="76d4ff" />
+        <option name="FOREGROUND" value="41bcff" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="c2c8d7" />
+        <option name="FOREGROUND" value="d75667" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
@@ -869,7 +884,7 @@
     </option>
     <option name="JS.PARENTHS">
       <value>
-        <option name="FOREGROUND" value="d0f5d4" />
+        <option name="FOREGROUND" value="f5315a" />
       </value>
     </option>
     <option name="JS.REGEXP">
@@ -880,6 +895,11 @@
     <option name="JS.SEMICOLON">
       <value>
         <option name="FOREGROUND" value="6dc2b8" />
+      </value>
+    </option>
+    <option name="JS.STRING">
+      <value>
+        <option name="FOREGROUND" value="82e870" />
       </value>
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
