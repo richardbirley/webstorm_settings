@@ -1,9 +1,9 @@
-<scheme name="Material Theme - Rich 1.2" version="142" parent_scheme="Default">
+<scheme name="Material Theme - Rich 1.3" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="created">2016-10-20T14:07:00</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.2.4.0.0</property>
-    <property name="modified">2016-10-31T11:13:32</property>
+    <property name="modified">2016-10-31T11:14:41</property>
     <property name="originalScheme">Material Theme - Darker</property>
   </metaInfo>
   <font>
@@ -511,7 +511,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="444444" />
+        <option name="FOREGROUND" value="787878" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -539,7 +539,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="444444" />
+        <option name="FOREGROUND" value="787878" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -556,7 +556,7 @@
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="444444" />
+        <option name="FOREGROUND" value="787878" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
@@ -601,7 +601,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="444444" />
+        <option name="FOREGROUND" value="787878" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -1815,7 +1815,7 @@
     <option name="SASS_COMMA" baseAttributes="CSS.COMMA" />
     <option name="SASS_COMMENT">
       <value>
-        <option name="FOREGROUND" value="4a4a4a" />
+        <option name="FOREGROUND" value="787878" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
