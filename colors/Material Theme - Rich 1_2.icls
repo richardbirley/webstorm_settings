@@ -1,4 +1,4 @@
-<scheme name="Material Theme - Rich" version="142" parent_scheme="Default">
+<scheme name="Material Theme - Rich 1.2" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="created">2016-10-20T14:07:00</property>
     <property name="ide">WebStorm</property>
@@ -45,9 +45,9 @@
     <option name="FILESTATUS_addedOutside" value="629755" />
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="80cbc4" />
-    <option name="GUTTER_BACKGROUND" value="141414" />
+    <option name="GUTTER_BACKGROUND" value="202020" />
     <option name="INDENT_GUIDE" value="" />
-    <option name="LINE_NUMBERS_COLOR" value="353535" />
+    <option name="LINE_NUMBERS_COLOR" value="f5c36c" />
     <option name="METHOD_SEPARATORS_COLOR" value="303030" />
     <option name="MODIFIED_LINES_COLOR" value="d9f5dd" />
     <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
@@ -137,24 +137,59 @@
         <option name="FOREGROUND" value="1a1f29" />
       </value>
     </option>
+    <option name="COFFEESCRIPT.BAD_CHARACTER" baseAttributes="BAD_CHARACTER" />
+    <option name="COFFEESCRIPT.BLOCK_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="COFFEESCRIPT.BOOLEAN" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="COFFEESCRIPT.BRACE" baseAttributes="DEFAULT_BRACES" />
+    <option name="COFFEESCRIPT.BRACKET" baseAttributes="DEFAULT_BRACKETS" />
+    <option name="COFFEESCRIPT.CLASS_NAME" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="COFFEESCRIPT.COLON" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="COFFEESCRIPT.COMMA" baseAttributes="DEFAULT_COMMA" />
+    <option name="COFFEESCRIPT.DOT" baseAttributes="DEFAULT_DOT" />
+    <option name="COFFEESCRIPT.ESCAPE_SEQUENCE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="COFFEESCRIPT.EXISTENTIAL" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="COFFEESCRIPT.EXPRESSIONS_SUBSTITUTION_MARK">
       <value>
         <option name="FOREGROUND" value="dee3ec" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="COFFEESCRIPT.FUNCTION" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="COFFEESCRIPT.FUNCTION_BINDING" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="JS.GLOBAL_VARIABLE" />
+    <option name="COFFEESCRIPT.HEREDOC_CONTENT" baseAttributes="DEFAULT_STRING" />
+    <option name="COFFEESCRIPT.HEREDOC_ID" baseAttributes="DEFAULT_STRING" />
+    <option name="COFFEESCRIPT.HEREGEX_CONTENT" baseAttributes="DEFAULT_STRING" />
+    <option name="COFFEESCRIPT.HEREGEX_ID" baseAttributes="DEFAULT_STRING" />
     <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
       <value>
         <option name="FOREGROUND" value="dee3ec" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="COFFEESCRIPT.JAVASCRIPT_ID" baseAttributes="DEFAULT_STRING" />
+    <option name="COFFEESCRIPT.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="COFFEESCRIPT.LINE_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="COFFEESCRIPT.LOCAL_VARIABLE" baseAttributes="JS.LOCAL_VARIABLE" />
+    <option name="COFFEESCRIPT.NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="COFFEESCRIPT.OBJECT_KEY" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="COFFEESCRIPT.OPERATIONS" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="COFFEESCRIPT.PARAMETER">
       <value>
         <option name="EFFECT_COLOR" value="dee3ec" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="COFFEESCRIPT.PARENTHESIS" baseAttributes="DEFAULT_PARENTHS" />
+    <option name="COFFEESCRIPT.PROTOTYPE" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="COFFEESCRIPT.RANGE" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="COFFEESCRIPT.REGULAR_EXPRESSION_CONTENT" baseAttributes="DEFAULT_STRING" />
+    <option name="COFFEESCRIPT.REGULAR_EXPRESSION_FLAG" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="COFFEESCRIPT.REGULAR_EXPRESSION_ID" baseAttributes="DEFAULT_STRING" />
+    <option name="COFFEESCRIPT.SEMICOLON" baseAttributes="DEFAULT_SEMICOLON" />
+    <option name="COFFEESCRIPT.SPLAT" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="COFFEESCRIPT.STRING_LITERAL" baseAttributes="DEFAULT_STRING" />
+    <option name="COFFEESCRIPT.THIS" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CONDITIONALLY_NOT_COMPILED">
       <value>
         <option name="FOREGROUND" value="536c46" />
@@ -255,16 +290,21 @@
         <option name="FOREGROUND" value="cdcd00" />
       </value>
     </option>
+    <option name="CSS.BAD_CHARACTER" baseAttributes="BAD_CHARACTER" />
+    <option name="CSS.BRACES" baseAttributes="DEFAULT_BRACES" />
     <option name="CSS.BRACKETS">
       <value>
         <option name="FOREGROUND" value="c792ea" />
       </value>
     </option>
+    <option name="CSS.COLON" baseAttributes="TEXT" />
     <option name="CSS.COLOR">
       <value>
         <option name="FOREGROUND" value="ffea7d" />
       </value>
     </option>
+    <option name="CSS.COMMA" baseAttributes="DEFAULT_COMMA" />
+    <option name="CSS.COMMENT" baseAttributes="HTML_COMMENT" />
     <option name="CSS.DOT">
       <value>
         <option name="FOREGROUND" value="ffc251" />
@@ -291,6 +331,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CSS.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.NUMBER">
       <value>
         <option name="FOREGROUND" value="ffab62" />
@@ -322,6 +363,8 @@
         <option name="FOREGROUND" value="ffc251" />
       </value>
     </option>
+    <option name="CSS.SEMICOLON" baseAttributes="DEFAULT_SEMICOLON" />
+    <option name="CSS.STRING" baseAttributes="DEFAULT_STRING" />
     <option name="CSS.TAG_NAME">
       <value>
         <option name="FOREGROUND" value="ff5370" />
@@ -381,6 +424,73 @@
         <option name="FOREGROUND" value="4646f1" />
       </value>
     </option>
+    <option name="DART_ANNOTATION" baseAttributes="DEFAULT_METADATA" />
+    <option name="DART_BAD_CHARACTER" baseAttributes="BAD_CHARACTER" />
+    <option name="DART_BLOCK_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="DART_BRACES" baseAttributes="DEFAULT_BRACES" />
+    <option name="DART_BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
+    <option name="DART_CLASS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="DART_COLON" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="DART_COMMA" baseAttributes="DEFAULT_COMMA" />
+    <option name="DART_CONSTRUCTOR" baseAttributes="DART_INSTANCE_METHOD_DECLARATION" />
+    <option name="DART_DOC_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="DART_DOT" baseAttributes="DEFAULT_DOT" />
+    <option name="DART_DYNAMIC_LOCAL_VARIABLE_DECLARATION" baseAttributes="DART_LOCAL_VARIABLE_DECLARATION" />
+    <option name="DART_DYNAMIC_LOCAL_VARIABLE_REFERENCE" baseAttributes="DART_LOCAL_VARIABLE_REFERENCE" />
+    <option name="DART_DYNAMIC_PARAMETER_DECLARATION" baseAttributes="DART_PARAMETER_DECLARATION" />
+    <option name="DART_DYNAMIC_PARAMETER_REFERENCE" baseAttributes="DART_PARAMETER_REFERENCE" />
+    <option name="DART_ENUM" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="DART_ENUM_CONSTANT" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="DART_ERROR" baseAttributes="ERRORS_ATTRIBUTES" />
+    <option name="DART_FAT_ARROW" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="DART_FUNCTION_TYPE_ALIAS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="DART_HINT" baseAttributes="WARNING_ATTRIBUTES" />
+    <option name="DART_IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DART_IMPORT_PREFIX" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DART_INSTANCE_FIELD_DECLARATION" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="DART_INSTANCE_FIELD_REFERENCE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="DART_INSTANCE_GETTER_DECLARATION" baseAttributes="DART_INSTANCE_FIELD_DECLARATION" />
+    <option name="DART_INSTANCE_GETTER_REFERENCE" baseAttributes="DART_INSTANCE_FIELD_DECLARATION" />
+    <option name="DART_INSTANCE_METHOD_DECLARATION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="DART_INSTANCE_METHOD_REFERENCE" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="DART_INSTANCE_SETTER_DECLARATION" baseAttributes="DART_INSTANCE_FIELD_DECLARATION" />
+    <option name="DART_INSTANCE_SETTER_REFERENCE" baseAttributes="DART_INSTANCE_FIELD_DECLARATION" />
+    <option name="DART_INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
+    <option name="DART_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="DART_LABEL" baseAttributes="DEFAULT_LABEL" />
+    <option name="DART_LIBRARY_NAME" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DART_LINE_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="DART_LOCAL_FUNCTION_DECLARATION" baseAttributes="DART_LOCAL_VARIABLE_DECLARATION" />
+    <option name="DART_LOCAL_FUNCTION_REFERENCE" baseAttributes="DART_LOCAL_VARIABLE_REFERENCE" />
+    <option name="DART_LOCAL_VARIABLE_DECLARATION" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="DART_LOCAL_VARIABLE_REFERENCE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="DART_NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="DART_OPERATION_SIGN" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="DART_PARAMETER_DECLARATION" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="DART_PARAMETER_REFERENCE" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="DART_PARENTH" baseAttributes="DEFAULT_PARENTHS" />
+    <option name="DART_SEMICOLON" baseAttributes="DEFAULT_SEMICOLON" />
+    <option name="DART_STATIC_FIELD_DECLARATION" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="DART_STATIC_GETTER_DECLARATION" baseAttributes="DART_STATIC_FIELD_DECLARATION" />
+    <option name="DART_STATIC_GETTER_REFERENCE" baseAttributes="DART_STATIC_FIELD_DECLARATION" />
+    <option name="DART_STATIC_METHOD_DECLARATION" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="DART_STATIC_METHOD_REFERENCE" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="DART_STATIC_SETTER_DECLARATION" baseAttributes="DART_STATIC_FIELD_DECLARATION" />
+    <option name="DART_STATIC_SETTER_REFERENCE" baseAttributes="DART_STATIC_FIELD_DECLARATION" />
+    <option name="DART_STRING" baseAttributes="DEFAULT_STRING" />
+    <option name="DART_SYMBOL_LITERAL" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="DART_TOP_LEVEL_FUNCTION_DECLARATION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="DART_TOP_LEVEL_FUNCTION_REFERENCE" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="DART_TOP_LEVEL_GETTER_DECLARATION" baseAttributes="DART_TOP_LEVEL_VARIABLE_DECLARATION" />
+    <option name="DART_TOP_LEVEL_GETTER_REFERENCE" baseAttributes="DART_TOP_LEVEL_VARIABLE_DECLARATION" />
+    <option name="DART_TOP_LEVEL_SETTER_DECLARATION" baseAttributes="DART_TOP_LEVEL_VARIABLE_DECLARATION" />
+    <option name="DART_TOP_LEVEL_SETTER_REFERENCE" baseAttributes="DART_TOP_LEVEL_VARIABLE_DECLARATION" />
+    <option name="DART_TOP_LEVEL_VARIABLE_DECLARATION" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="DART_TYPE_NAME_DYNAMIC" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="DART_TYPE_PARAMETER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="DART_UNRESOLVED_INSTANCE_MEMBER_REFERENCE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DART_VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="DART_WARNING" baseAttributes="ERRORS_ATTRIBUTES" />
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="f77669" />
@@ -408,6 +518,7 @@
         <option name="FOREGROUND" value="ffcb6b" />
       </value>
     </option>
+    <option name="DEFAULT_CLASS_REFERENCE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="f77669" />
@@ -452,6 +563,7 @@
         <option name="FOREGROUND" value="76d4ff" />
       </value>
     </option>
+    <option name="DEFAULT_GLOBAL_VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="c3d3de" />
@@ -462,6 +574,8 @@
         <option name="FOREGROUND" value="ff5370" />
       </value>
     </option>
+    <option name="DEFAULT_INSTANCE_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="DEFAULT_INTERFACE_NAME" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
         <option name="EFFECT_COLOR" value="722c40" />
@@ -621,6 +735,14 @@
         <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
+    <option name="DOCKER_BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
+    <option name="DOCKER_COMMA" baseAttributes="DEFAULT_COMMA" />
+    <option name="DOCKER_COMMENTS" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="DOCKER_DOT" baseAttributes="DEFAULT_DOT" />
+    <option name="DOCKER_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="DOCKER_NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="DOCKER_PARENTH" baseAttributes="DEFAULT_PARENTHS" />
+    <option name="DOCKER_STRING" baseAttributes="DEFAULT_STRING" />
     <option name="DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="798891" />
@@ -629,6 +751,24 @@
     <option name="DUPLICATE_FROM_SERVER">
       <value />
     </option>
+    <option name="EJS_BLOCK_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="EJS_FILE_PATH" baseAttributes="DEFAULT_STRING" />
+    <option name="EJS_INCLUDE" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="EJS_OPEN" baseAttributes="DEFAULT_BRACES" />
+    <option name="EJS_OPEN_EQ" baseAttributes="DEFAULT_BRACES" />
+    <option name="EJS_OPEN_EQ_EQ" baseAttributes="DEFAULT_BRACES" />
+    <option name="EJS_OPEN_EQ_GENERATOR" baseAttributes="DEFAULT_BRACES" />
+    <option name="EJS_OPEN_FILTER" baseAttributes="DEFAULT_BRACES" />
+    <option name="EL.BOUNDS" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="EL.BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
+    <option name="EL.COMMA" baseAttributes="DEFAULT_COMMA" />
+    <option name="EL.DOT" baseAttributes="DEFAULT_DOT" />
+    <option name="EL.IDENT" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="EL.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="EL.NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="EL.PARENTHS" baseAttributes="DEFAULT_PARENTHS" />
+    <option name="EL.STRING" baseAttributes="DEFAULT_STRING" />
+    <option name="EL_BACKGROUND" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="ENUM_CONST">
       <value>
         <option name="FOREGROUND" value="9373a5" />
@@ -663,6 +803,13 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GHERKIN_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="GHERKIN_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="GHERKIN_TABLE_CELL" baseAttributes="GHERKIN_REGEXP_PARAMETER" />
+    <option name="GHERKIN_TABLE_HEADER_CELL" baseAttributes="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" />
+    <option name="GHERKIN_TABLE_PIPE" baseAttributes="GHERKIN_KEYWORD" />
+    <option name="GHERKIN_TAG" baseAttributes="DEFAULT_METADATA" />
+    <option name="GHERKIN_TEXT" baseAttributes="TEXT" />
     <option name="GROOVY_KEYWORD">
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
@@ -685,16 +832,38 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="HAML_CLASS" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_ID" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="HAML_LINE_CONTINUATION" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="HAML_PARENTHS" baseAttributes="DEFAULT_PARENTHS" />
     <option name="HAML_RUBY_CODE">
       <value>
         <option name="BACKGROUND" value="252b39" />
       </value>
     </option>
+    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_STRING" baseAttributes="DEFAULT_STRING" />
+    <option name="HAML_STRING_INTERPOLATED" baseAttributes="DEFAULT_STRING" />
     <option name="HAML_TAG">
       <value>
         <option name="FOREGROUND" value="c3cee3" />
       </value>
     </option>
+    <option name="HAML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_TEXT" baseAttributes="TEXT" />
+    <option name="HAML_WS_REMOVAL" baseAttributes="TEXT" />
+    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HANDLEBARS.COMMENTS" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="HANDLEBARS.DATA_PREFIX" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HANDLEBARS.ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="HANDLEBARS.IDENTIFIERS" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HANDLEBARS.MUSTACHES" baseAttributes="DEFAULT_BRACES" />
+    <option name="HANDLEBARS.OPERATORS" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="HANDLEBARS.STRINGS" baseAttributes="DEFAULT_STRING" />
+    <option name="HANDLEBARS.VALUES" baseAttributes="DEFAULT_NUMBER" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="ffcb6b" />
@@ -794,6 +963,22 @@
         <option name="FOREGROUND" value="1a1f29" />
       </value>
     </option>
+    <option name="JADE_ATTRIBUTE_NAME" baseAttributes="HTML_ATTRIBUTE_NAME" />
+    <option name="JADE_BAD_CHARACTER" baseAttributes="BAD_CHARACTER" />
+    <option name="JADE_COLON" baseAttributes="DEFAULT_SEMICOLON" />
+    <option name="JADE_COMMA" baseAttributes="DEFAULT_COMMA" />
+    <option name="JADE_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="JADE_DOCTYPE" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JADE_EMBEDDED_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="JADE_NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="JADE_OPERATION_SIGN" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="JADE_PARENTS" baseAttributes="DEFAULT_PARENTHS" />
+    <option name="JADE_PIPE" baseAttributes="DEFAULT_DOT" />
+    <option name="JADE_TAG_CLASS" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="JADE_TAG_ID" baseAttributes="HTML_ATTRIBUTE_NAME" />
+    <option name="JADE_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
+    <option name="JADE_TEXT" baseAttributes="DEFAULT_STRING" />
+    <option name="JADE_UNBUF_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
     <option name="JAVA_COMMA">
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
@@ -834,6 +1019,9 @@
         <option name="FOREGROUND" value="1a1f29" />
       </value>
     </option>
+    <option name="JS.BADCHARACTER" baseAttributes="BAD_CHARACTER" />
+    <option name="JS.BLOCK_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="JS.BRACES" baseAttributes="DEFAULT_BRACES" />
     <option name="JS.BRACKETS">
       <value>
         <option name="FOREGROUND" value="41bcff" />
@@ -844,6 +1032,11 @@
         <option name="FOREGROUND" value="41bcff" />
       </value>
     </option>
+    <option name="JS.COMMA" baseAttributes="DEFAULT_COMMA" />
+    <option name="JS.DOC_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="JS.DOC_MARKUP" baseAttributes="DEFAULT_DOC_MARKUP" />
+    <option name="JS.DOC_TAG" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="JS.DOT" baseAttributes="DEFAULT_DOT" />
     <option name="JS.GLOBAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="41bcff" />
@@ -870,11 +1063,17 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="JS.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JS.LABEL" baseAttributes="DEFAULT_LABEL" />
+    <option name="JS.LINE_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
     <option name="JS.LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="c2c8d7" />
       </value>
     </option>
+    <option name="JS.MODULE_NAME" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="JS.NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="JS.OPERATION_SIGN" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="JS.PARAMETER">
       <value>
         <option name="FOREGROUND" value="c2c8d7" />
@@ -895,6 +1094,8 @@
         <option name="FOREGROUND" value="6dc2b8" />
       </value>
     </option>
+    <option name="JS.STATIC_MEMBER_FUNCTION" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="JS.STATIC_MEMBER_VARIABLE" baseAttributes="DEFAULT_STATIC_FIELD" />
     <option name="JS.STRING">
       <value>
         <option name="FOREGROUND" value="82e870" />
@@ -905,6 +1106,11 @@
         <option name="FOREGROUND" value="6dc2b8" />
       </value>
     </option>
+    <option name="JSON.BLOCK_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="JSON.BRACES" baseAttributes="DEFAULT_BRACES" />
+    <option name="JSON.BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
+    <option name="JSON.COLON" baseAttributes="DEFAULT_SEMICOLON" />
+    <option name="JSON.COMMA" baseAttributes="DEFAULT_COMMA" />
     <option name="JSON.INVALID_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -917,6 +1123,7 @@
         <option name="FOREGROUND" value="f55e53" />
       </value>
     </option>
+    <option name="JSON.LINE_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
     <option name="JSON.NUMBER">
       <value>
         <option name="FOREGROUND" value="b7e876" />
@@ -937,6 +1144,10 @@
         <option name="FOREGROUND" value="6dc2b8" />
       </value>
     </option>
+    <option name="JSP_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="JSP_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="JSP_COMMENT" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="JSP_DIRECTIVE_BACKGROUND" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="JSP_DIRECTIVE_NAME">
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
@@ -953,6 +1164,33 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="LESS_BAD_CHARACTER" baseAttributes="CSS.BAD_CHARACTER" />
+    <option name="LESS_BRACES" baseAttributes="CSS.BRACES" />
+    <option name="LESS_BRACKETS" baseAttributes="CSS.BRACKETS" />
+    <option name="LESS_COLON" baseAttributes="CSS.COLON" />
+    <option name="LESS_COLOR" baseAttributes="CSS.COLOR" />
+    <option name="LESS_COMMA" baseAttributes="CSS.COMMA" />
+    <option name="LESS_COMMENT" baseAttributes="CSS.COMMENT" />
+    <option name="LESS_DOT" baseAttributes="CSS.DOT" />
+    <option name="LESS_FUNCTION" baseAttributes="CSS.FUNCTION" />
+    <option name="LESS_IDENT" baseAttributes="CSS.IDENT" />
+    <option name="LESS_ID_SELECTOR" baseAttributes="CSS.HASH" />
+    <option name="LESS_IMPORTANT" baseAttributes="CSS.IMPORTANT" />
+    <option name="LESS_INJECTED_CODE" baseAttributes="TEXT" />
+    <option name="LESS_JS_CODE_DELIM" baseAttributes="DEFAULT_STRING" />
+    <option name="LESS_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="LESS_NUMBER" baseAttributes="CSS.NUMBER" />
+    <option name="LESS_OPERATORS" baseAttributes="CSS.OPERATORS" />
+    <option name="LESS_PARENTHESES" baseAttributes="CSS.PARENTHESES" />
+    <option name="LESS_PROPERTY_NAME" baseAttributes="CSS.PROPERTY_NAME" />
+    <option name="LESS_PROPERTY_VALUE" baseAttributes="CSS.PROPERTY_VALUE" />
+    <option name="LESS_PSEUDO" baseAttributes="CSS.PSEUDO" />
+    <option name="LESS_SEMICOLON" baseAttributes="CSS.SEMICOLON" />
+    <option name="LESS_STRING" baseAttributes="CSS.STRING" />
+    <option name="LESS_TAG_NAME" baseAttributes="CSS.TAG_NAME" />
+    <option name="LESS_UNICODE_RANGE" baseAttributes="CSS.UNICODE.RANGE" />
+    <option name="LESS_URL" baseAttributes="CSS.URL" />
+    <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="LINE_FULL_COVERAGE">
       <value>
         <option name="BACKGROUND" value="1fc700" />
@@ -1289,6 +1527,7 @@
         <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
+    <option name="REGEXP.BAD_CHARACTER" baseAttributes="BAD_CHARACTER" />
     <option name="REGEXP.BRACES">
       <value>
         <option name="FOREGROUND" value="2c9ea7" />
@@ -1304,6 +1543,8 @@
         <option name="FOREGROUND" value="6dc2b8" />
       </value>
     </option>
+    <option name="REGEXP.COMMA" baseAttributes="DEFAULT_COMMA" />
+    <option name="REGEXP.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
     <option name="REGEXP.ESC_CHARACTER">
       <value>
         <option name="FOREGROUND" value="c792ea" />
@@ -1334,6 +1575,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="REGEXP.REDUNDANT_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="REST.FIXED">
       <value>
         <option name="BACKGROUND" value="252b39" />
@@ -1553,6 +1795,12 @@
         <option name="FOREGROUND" value="c3e88d" />
       </value>
     </option>
+    <option name="SASS_BAD_CHARACTER" baseAttributes="CSS.BAD_CHARACTER" />
+    <option name="SASS_BRACES" baseAttributes="CSS.BRACES" />
+    <option name="SASS_BRACKETS" baseAttributes="CSS.BRACKETS" />
+    <option name="SASS_COLON" baseAttributes="CSS.COLON" />
+    <option name="SASS_COLOR" baseAttributes="CSS.COLOR" />
+    <option name="SASS_COMMA" baseAttributes="CSS.COMMA" />
     <option name="SASS_COMMENT">
       <value>
         <option name="FOREGROUND" value="4a4a4a" />
@@ -1564,6 +1812,7 @@
         <option name="FOREGROUND" value="c792ea" />
       </value>
     </option>
+    <option name="SASS_DOT" baseAttributes="CSS.DOT" />
     <option name="SASS_EXTEND">
       <value>
         <option name="FOREGROUND" value="c792ea" />
@@ -1574,16 +1823,19 @@
         <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
+    <option name="SASS_GLOBAL" baseAttributes="CSS.IMPORTANT" />
     <option name="SASS_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="ffcb6b" />
       </value>
     </option>
+    <option name="SASS_ID_SELECTOR" baseAttributes="CSS.HASH" />
     <option name="SASS_IMPORTANT">
       <value>
         <option name="FOREGROUND" value="c792ea" />
       </value>
     </option>
+    <option name="SASS_INTERPOLATION" baseAttributes="TEXT" />
     <option name="SASS_KEYWORD">
       <value>
         <option name="FOREGROUND" value="c792ea" />
@@ -1599,6 +1851,9 @@
         <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
+    <option name="SASS_OPERATORS" baseAttributes="CSS.OPERATORS" />
+    <option name="SASS_OPTIONAL" baseAttributes="CSS.IMPORTANT" />
+    <option name="SASS_PARENTHESES" baseAttributes="CSS.PARENTHESES" />
     <option name="SASS_PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="ffcb6b" />
@@ -1609,6 +1864,8 @@
         <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
+    <option name="SASS_PSEUDO" baseAttributes="CSS.PSEUDO" />
+    <option name="SASS_SEMICOLON" baseAttributes="CSS.SEMICOLON" />
     <option name="SASS_STRING">
       <value>
         <option name="FOREGROUND" value="c3e88d" />
@@ -1619,6 +1876,7 @@
         <option name="FOREGROUND" value="f07178" />
       </value>
     </option>
+    <option name="SASS_UNICODE_RANGE" baseAttributes="CSS.UNICODE.RANGE" />
     <option name="SASS_URL">
       <value>
         <option name="FOREGROUND" value="f78c6c" />
@@ -1635,6 +1893,7 @@
         <option name="BACKGROUND" value="f8e71c" />
       </value>
     </option>
+    <option name="SPY-JS.EXECUTION_TIME" baseAttributes="DEFAULT_BLOCK_COMMENT" />
     <option name="SQL_KEYWORD">
       <value>
         <option name="FOREGROUND" value="ba76e7" />
@@ -1671,6 +1930,21 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="STYLUS_COLOR" baseAttributes="CSS.COLOR" />
+    <option name="STYLUS_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="STYLUS_FUNCTION_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="STYLUS_IDENT" baseAttributes="CSS.IDENT" />
+    <option name="STYLUS_ID_SELECTOR" baseAttributes="CSS.HASH" />
+    <option name="STYLUS_IMPORTANT" baseAttributes="CSS.IMPORTANT" />
+    <option name="STYLUS_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="STYLUS_NUMBER" baseAttributes="CSS.NUMBER" />
+    <option name="STYLUS_OPERATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="STYLUS_PROPERTY_NAME" baseAttributes="CSS.PROPERTY_NAME" />
+    <option name="STYLUS_PROPERTY_VALUE" baseAttributes="CSS.PROPERTY_VALUE" />
+    <option name="STYLUS_PSEUDO" baseAttributes="CSS.PSEUDO" />
+    <option name="STYLUS_STRING" baseAttributes="CSS.STRING" />
+    <option name="STYLUS_TAG_NAME" baseAttributes="CSS.TAG_NAME" />
+    <option name="STYLUS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="Static method access">
       <value>
         <option name="FOREGROUND" value="1a1f29" />
@@ -1688,6 +1962,7 @@
         <option name="FOREGROUND" value="f36e3a" />
       </value>
     </option>
+    <option name="TAG_ATTR_KEY" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="TAPESTRY_COMPONENT_TAG">
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
@@ -1717,6 +1992,36 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="TS.BADCHARACTER" baseAttributes="JS.BADCHARACTER" />
+    <option name="TS.BLOCK_COMMENT" baseAttributes="JS.BLOCK_COMMENT" />
+    <option name="TS.BRACES" baseAttributes="JS.BRACES" />
+    <option name="TS.BRACKETS" baseAttributes="JS.BRACKETS" />
+    <option name="TS.CLASS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="TS.COMMA" baseAttributes="JS.COMMA" />
+    <option name="TS.DOC_COMMENT" baseAttributes="JS.DOC_COMMENT" />
+    <option name="TS.DOC_MARKUP" baseAttributes="JS.DOC_MARKUP" />
+    <option name="TS.DOC_TAG" baseAttributes="JS.DOC_TAG" />
+    <option name="TS.DOT" baseAttributes="JS.DOT" />
+    <option name="TS.GLOBAL_FUNCTION" baseAttributes="JS.GLOBAL_FUNCTION" />
+    <option name="TS.GLOBAL_VARIABLE" baseAttributes="JS.GLOBAL_VARIABLE" />
+    <option name="TS.INSTANCE_MEMBER_FUNCTION" baseAttributes="JS.INSTANCE_MEMBER_FUNCTION" />
+    <option name="TS.INSTANCE_MEMBER_VARIABLE" baseAttributes="JS.INSTANCE_MEMBER_VARIABLE" />
+    <option name="TS.INTERFACE" baseAttributes="DEFAULT_INTERFACE_NAME" />
+    <option name="TS.INVALID_STRING_ESCAPE" baseAttributes="JS.INVALID_STRING_ESCAPE" />
+    <option name="TS.KEYWORD" baseAttributes="JS.KEYWORD" />
+    <option name="TS.LINE_COMMENT" baseAttributes="JS.LINE_COMMENT" />
+    <option name="TS.LOCAL_VARIABLE" baseAttributes="JS.LOCAL_VARIABLE" />
+    <option name="TS.MODULE_NAME" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="TS.NUMBER" baseAttributes="JS.NUMBER" />
+    <option name="TS.OPERATION_SIGN" baseAttributes="JS.OPERATION_SIGN" />
+    <option name="TS.PARAMETER" baseAttributes="JS.PARAMETER" />
+    <option name="TS.PARENTHS" baseAttributes="JS.PARENTHS" />
+    <option name="TS.REGEXP" baseAttributes="JS.REGEXP" />
+    <option name="TS.SEMICOLON" baseAttributes="JS.SEMICOLON" />
+    <option name="TS.STATIC_MEMBER_FUNCTION" baseAttributes="JS.STATIC_MEMBER_FUNCTION" />
+    <option name="TS.STATIC_MEMBER_VARIABLE" baseAttributes="JS.STATIC_MEMBER_VARIABLE" />
+    <option name="TS.STRING" baseAttributes="JS.STRING" />
+    <option name="TS.VALID_STRING_ESCAPE" baseAttributes="JS.VALID_STRING_ESCAPE" />
     <option name="TYPEDEF">
       <value>
         <option name="FOREGROUND" value="c7c8f5" />
@@ -1795,11 +2100,15 @@
         <option name="FOREGROUND" value="ffc251" />
       </value>
     </option>
+    <option name="XML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="XML_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="XML_NS_PREFIX">
       <value>
         <option name="FOREGROUND" value="ffc251" />
       </value>
     </option>
+    <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_DATA">
       <value>
         <option name="FOREGROUND" value="c3e887" />
@@ -1811,6 +2120,8 @@
         <option name="FOREGROUND" value="ff355b" />
       </value>
     </option>
+    <option name="XPATH.BRACKET" baseAttributes="DEFAULT_BRACKETS" />
+    <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="XPATH.KEYWORD">
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
@@ -1822,6 +2133,8 @@
         <option name="FOREGROUND" value="f25619" />
       </value>
     </option>
+    <option name="XPATH.OPERATION_SIGN" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="XPATH.PARENTH" baseAttributes="DEFAULT_PARENTHS" />
     <option name="XPATH.STRING">
       <value>
         <option name="FOREGROUND" value="f36e3a" />
@@ -1831,12 +2144,15 @@
     <option name="XPATH.XPATH_NAME">
       <value />
     </option>
+    <option name="XPATH.XPATH_PREFIX" baseAttributes="TEXT" />
+    <option name="XPATH.XPATH_TEXT" baseAttributes="TEXT" />
     <option name="XPATH.XPATH_VARIABLE">
       <value>
         <option name="FOREGROUND" value="f38630" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="XSLT_DIRECTIVE" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="505c63" />
@@ -1853,6 +2169,7 @@
         <option name="FOREGROUND" value="f36e3a" />
       </value>
     </option>
+    <option name="YAML_SCALAR_LIST" baseAttributes="TEXT" />
     <option name="YAML_SCALAR_STRING">
       <value>
         <option name="FOREGROUND" value="f36e3a" />
@@ -1863,6 +2180,8 @@
         <option name="FOREGROUND" value="f25619" />
       </value>
     </option>
+    <option name="YAML_SIGN" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="YAML_TEXT" baseAttributes="TEXT" />
     <option name="osmorc.headerName">
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
